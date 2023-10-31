@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+:root {
+  --fill-color: red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+.heading {
+  font-family: "Lilita One", sans-serif;
+}
+.badge {
+  width: 60px;
+  height: 25px;
+  font-size: 15px;
+  margin-top: 125px;
+  margin-left: -55px;
+  overflow: hidden;
+  background-color: red !important;
+}
+.fav-icons {
+  cursor: pointer;
+}
+.fav-icons:active {
+  color: red !important;
+}
+.about-btn:hover {
+  background-color: #eb4715 !important;
+  color: #fff !important;
 }
