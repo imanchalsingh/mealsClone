@@ -6,7 +6,6 @@ import { Favorite } from "@mui/icons-material";
 export default function Foodcard() {
   const [data] = useState(meals);
   const [openDialog, setOpenDialog] = useState(false);
-
   const [currentCardId, setCurrnetCardId] = useState("");
   const open = () => {
     setOpenDialog(true);
