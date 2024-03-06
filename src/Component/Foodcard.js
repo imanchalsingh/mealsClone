@@ -13,7 +13,6 @@ export default function Foodcard() {
   const close = () => {
     setOpenDialog(false);
   };
-
   return (
     <div>
       <nav
